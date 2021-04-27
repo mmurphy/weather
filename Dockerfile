@@ -5,3 +5,4 @@ RUN apk add --no-cache git &&\
     npm install --production  &&\
     apk del git
 ENTRYPOINT ["node", "./application.js"]
+EXPOSE 8080
